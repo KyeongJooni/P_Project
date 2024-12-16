@@ -1,5 +1,4 @@
-![image](https://github.com/user-attachments/assets/9dc7e318-31c2-403d-970d-61491513d712)# p-project
-개인별 맞춤 카드 추천을 위한 AI Chatbot Service
+<div align=center>프로젝트 제목: 사용자별 맞춤 카드 추천을 위한 AI Chatbot Service</div>
 ![홈페이지](https://github.com/user-attachments/assets/3a4258c5-592c-4e05-bd06-9dbb3874f1aa)
 
 ## 프로젝트 소개
@@ -23,4 +22,5 @@
 - 기능 2. 챗봇을 이용한 사용자의 소비 패턴 분석, 맞춤 카드 추천
 - 기능 3. 특정 상품 결제 시 최대 할인율 정보 제공
 
-웹 페이지 크롤링 기술을 사용하여 데이터를 저장, 정제 후 개인 사용자 맞춤별 카드를 추천해줄 수 있는 웹페이지 및 챗봇을 개발함
+- 카드 선택의 어려움을 해결하고자, ‘ChatGPT AI Chatbot을 이용한 맞춤형 카드 추천 서비스’를 개발
+- 사용자의 선호도를 기반으로 최적의 카드를 추천해주는 웹 기반 플랫폼
