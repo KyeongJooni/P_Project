@@ -1,0 +1,67 @@
+<div class="gov">
+  <div class="gov-page">
+    <div class="gov-overlap">
+      <div class="gov-group">
+        <% cards.forEach(card => { %>
+        <div class="gov-overlap-group">
+          <!-- 카드 이미지 -->
+          <img class="gov-image" src="<%= card.image_url || 'img/card-placeholder.png' %>" alt="카드 이미지" />
+
+          <!-- 카드 이름 -->
+          <div class="gov-text-wrapper"><%= card.card_name %></div>
+
+          <!-- 카드 세부 정보 -->
+          <div class="gov-div">
+            <div class="gov-overlap-2">
+              <p class="gov-p">
+                <span class="gov-span">전월실적<br /></span> 
+                <span class="gov-text-wrapper-2"><%= card.monthly_spending_requirement || '조건 없음' %></span>
+              </p>
+              <p class="gov-div-2">
+                <span class="gov-span">연회비<br /></span>
+                <span class="gov-text-wrapper-2"><%= card.annual_fee %></span>
+              </p>
+              <div class="gov-rectangle-2"></div>
+              <a href="<%= card.detail_url %>" class="gov-text-wrapper-4" style="text-decoration: none; color: inherit;">상세보기</a>
+            </div>
+
+            <!-- 혜택 표시 -->
+            <div class="gov-text-wrapper-5">주요 혜택</div>
+            <div class="gov-element-CGV">
+              <% card.benefit.split(';').forEach(benefit => { %>
+              <div class="gov-benefit-item"><%= benefit.trim() %></div>
+              <% }); %>
+            </div>
+          </div>
+        </div>
+        <% }); %>
+      </div>
+     
+      <div class="card-section">
+        <!-- 신용카드 섹션 -->
+        <div class="credit-card-section">
+            <a href="/gov" class="gov-text-wrapper-6">신용카드</a>
+            <a href="/gov" class="gov-text-wrapper-6-1">신용카드</a>
+        </div>
+        
+        <!-- 체크카드 섹션 -->
+        <div class="check-card-section">
+            <a href="/gov_check" class="gov-text-wrapper-7">체크카드</a>
+            <a href="/gov_check" class="gov-text-wrapper-7-1">체크카드</a>
+        </div>
+    </div>
+    <div class="search-box"></div>
+      <div class="gov-search-wrapper">
+        <form action="/search_gov" method="POST" class="gov-search-form">
+          <input type="text" 
+                 name="search" 
+                 class="gov-search-input" 
+                 placeholder="검색어를 입력하세요"
+                 value="<%= locals.searchKeyword || '' %>">
+          <button type="submit" class="gov-search-button">검색</button>
+      </form>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="/js/govanima.js"></script>

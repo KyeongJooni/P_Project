@@ -1,0 +1,92 @@
+<div class="overlap">
+    <div class="overlap-group">
+        <div class="rectangle"></div>
+        <div class="text-wrapper">20대 추천 혜택</div>
+        <div class="rectangle-2"></div>
+        <a href="/twenty" class="text-wrapper-2-twenty">전체보기</a>
+        <% twentyCards.forEach((card, index) => { %>
+            <div class="rectangle-<%= index + 3 %>"></div>
+            <img class="<%= index === 0 ? 'card' : index === 1 ? 'img' : `card-${index}` %>" 
+                 src="<%= card.image_url || 'img/card-placeholder.png' %>" 
+                 alt="<%= card.card_name %>" />
+            <div class="home-text-wrapper-<%= index + 3 %>"><%= card.card_name %></div>
+        <% }); %>
+    </div>
+
+    <div class="overlap-2">
+        <div class="rectangle-7"></div>
+        <div class="text-wrapper">정부 지원 혜택</div>
+        <div class="rectangle-8"></div>
+        <a href="/gov" class="text-wrapper-2-twenty">전체보기</a>
+        <% govCards.forEach((card, index) => { %>
+            <div class="rectangle-<%= index + 3 %>"></div>
+            <img class="<%= index === 0 ? 'card' : index === 1 ? 'img' : `card-${index}` %>" 
+                 src="<%= card.image_url || 'img/card-placeholder.png' %>" 
+                 alt="<%= card.card_name %>" />
+            <div class="home-text-wrapper-<%= index + 3 %>"><%= card.card_name %></div>
+        <% }); %>
+    </div>
+
+    <div class="overlap-3">
+        <div class="rectangle"></div>
+        <div class="text-wrapper">퍼스널 맞춤 혜택</div>
+        <div class="rectangle-9"></div>
+        <a href="/personal" class="text-wrapper-2-twenty">전체보기</a>
+        <% personalCards.forEach((card, index) => { %>
+            <div class="rectangle-<%= index + 10 %>"></div>
+            <img class="card-<%= index + 4 %>" 
+                 src="<%= card.image_url || 'img/card-placeholder.png' %>" 
+                 alt="<%= card.card_name %>" />
+            <div class="home-text-wrapper-<%= index + 9 %>"><%= card.card_name %></div>
+        <% }); %>
+    </div>
+
+    <div class="overlap-4">
+        <div class="rectangle"></div>
+        <div class="text-wrapper">이달의 이벤트</div>
+        <div class="rectangle-9"></div>
+        <a href="/event" class="text-wrapper-2-twenty">전체보기</a>
+        <% eventCards.forEach((card, index) => { %>
+            <div class="rectangle-<%= index + 14 %>"></div>
+            <img class="card-<%= index + 8 %>" 
+                 src="<%= card.image_url || 'img/card-placeholder.png' %>" 
+                 alt="<%= card.card_name %>" />
+            <div class="home-text-wrapper-<%= index + 13 %>"><%= card.card_name %></div>
+        <% }); %>
+    </div>
+</div>
+
+<div class="overlap-5">
+    <img class="polygon" src="img/폴리곤1.png" onclick="nextSlide()" />
+    <img class="polygon-2" src="img/폴리곤2.png" onclick="prevSlide()" />
+    <div class="component">
+        <div class="frame">
+            <div class="frame-2" id="slider">
+                <div class="group">
+                    <a href="/twenty">
+                        <img class="twentycard" src="img/twentycard.png" style="cursor: pointer;" />
+                    </a>
+                </div>
+                <div class="group">
+                    <a href="/gov">
+                        <img class="img-2" src="img/govcard.png" style="cursor: pointer;" />
+                    </a>
+                </div>
+                <div class="group">
+                    <a href="/personal">
+                        <img class="img-2" src="img/personcard.png" style="cursor: pointer;" />
+                    </a>
+                </div>
+                <div class="group">
+                    <a href="/event">
+                        <img class="img-2" src="img/eventcard.png" style="cursor: pointer;" />
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="rectangle-18"></div>
+        <div class="rectangle-19"></div>
+        <div class="rectangle-20"></div>
+        <div class="rectangle-21"></div>
+    </div>
+</div>

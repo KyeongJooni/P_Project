@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="/css/globals.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body data-page="<%= path %>">
+    <div class="static"></div>
+    <div class="main">
+        <div class="div">
+            <div class="home-content2">
+                <%- include(body) %>
+            </div>
+        </div>
+        <script src="/js/chatbot.js"></script>
+        <div class="navbar-wrapper">
+            <div class="navbar">
+                <div class="rectangle-22"></div>
+                <div class="rectangle-23"></div>
+                <div class="rectangle-24"></div>
+                <div class="rectangle-25"></div>
+                <div class="rectangle-26"></div>
+                <div class="rectangle-27"></div>
+                <a href="/" class="text-wrapper-20">Card Fit</a>
+                <a href="/personal" class="text-wrapper-18">퍼스널 맞춤 카드</a>
+                <a href="/twenty" class="text-wrapper-21">20대 추천 카드</a>
+                <a href="/event" class="text-wrapper-19">이달의 이벤트</a>
+                <a href="/gov" class="text-wrapper-17">정부 지원 카드</a>
+                <a href="/">
+                    <img class="cardfit" src="/img/cardfit.png" alt="메인 페이지로 이동" />
+                </a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="/js/slider.js"></script>
+</body>
+</html>

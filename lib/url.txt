@@ -1,0 +1,174 @@
+twenty_Credit 크롤링 목록
+            'https://www.card-gorilla.com/card/detail/2752', // the pink edition
+            'https://www.card-gorilla.com/card/detail/2683', // 현대카드 Z family
+            'https://www.card-gorilla.com/card/detail/2751', // the Red
+            'https://www.card-gorilla.com/card/detail/2346', // BC 바로클리어 플러스
+            'https://www.card-gorilla.com/card/detail/10', // 신한카드 삑
+            'https://www.card-gorilla.com/card/detail/2235' // 삼성 id On
+            'https://www.card-gorilla.com/card/detail/129', // 청춘대로 톡톡
+            
+twenty_Check
+            'https://www.card-gorilla.com/card/detail/286', // 카카오페이 신한카드
+            'https://www.card-gorilla.com/card/detail/2749', // ONE 체크카드
+            'https://www.card-gorilla.com/card/detail/2422', // 노리2 체크카드
+            'https://www.card-gorilla.com/card/detail/646', // 신한카드 Deep Dream 체크카드
+
+정부지원카드
+
+gov_Credit
+
+'https://www.card-gorilla.com/card/detail/2513', //zgm. 고향으로카드
+'https://www.card-gorilla.com/card/detail/718', // 국민행복 삼성카드 V2
+'https://www.card-gorilla.com/card/detail/712', // 신한카드 국민행복
+'https://www.card-gorilla.com/card/detail/721', // 국민행복카드 S2
+'https://www.card-gorilla.com/card/detail/751', // KB국민 국민행복카드
+'https://www.card-gorilla.com/card/detail/455', // 롯데 국민행복카드
+'https://www.card-gorilla.com/card/detail/174', // 국민행복카드(비씨)
+'https://www.card-gorilla.com/card/detail/834', // 국민행복카드 신용카드(DGB대구은행)
+'https://www.card-gorilla.com/card/detail/2150', // 국민행복카드(제주은행)
+'https://www.card-gorilla.com/card/detail/260', // 국민행복카드(IBK기업은행)
+'https://www.card-gorilla.com/card/detail/1278', // 국민행복카드(BNK부산은행) 
+'https://www.card-gorilla.com/card/detail/258', // Oil & Life카드(Oil카드)(IBK기업은행)
+'https://www.card-gorilla.com/card/detail/259', // Oil & Life카드(Life카드)(IBK기업은행)
+'https://www.card-gorilla.com/card/detail/39',  // 신한카드 Deep Oil
+
+gov_Check
+
+'https://www.card-gorilla.com/card/detail/446', // IBK 나라사랑카드
+'https://www.card-gorilla.com/card/detail/739', // KB 나라사랑카드
+'https://www.card-gorilla.com/card/detail/367', // NH 내일배움체크카드
+'https://www.card-gorilla.com/card/detail/392', // 국민행복 삼성체크카드
+'https://www.card-gorilla.com/card/detail/2084', // MG Life 체크카드(MG새마을금고)
+
+event_Credit
+            'https://www.card-gorilla.com/card/detail/2669', // 현대카드 M
+            'https://www.card-gorilla.com/card/detail/2717', // 디지 로카 Auto
+            'https://www.card-gorilla.com/card/detail/51', // 삼성카드 taptap O
+            'https://www.card-gorilla.com/card/detail/2235', // 삼성 id On
+            'https://www.card-gorilla.com/card/detail/2441', // MY WE:SH
+            'https://www.card-gorilla.com/card/detail/2482', // I-ALL
+            'https://www.card-gorilla.com/card/detail/2666', // 신한 Point
+            'https://www.card-gorilla.com/card/detail/466', // 신한 Air-One
+            'https://www.card-gorilla.com/card/detail/2657', // JADE Classic
+            'https://www.card-gorilla.com/card/detail/2344', // 현대백화점 카드
+
+personal_Credit
+            'https://www.card-gorilla.com/card/detail/258', // Oil & Life 카드 (주유)
+            'https://www.card-gorilla.com/card/detail/2610', // 그린카드
+            'https://www.card-gorilla.com/card/detail/2290' ,// iD ENERGY 카드
+            'https://www.card-gorilla.com/card/detail/2661' ,// plug-in 카드
+            'https://www.card-gorilla.com/card/detail/39' ,// Deep Oil
+            'https://www.card-gorilla.com/card/detail/16', // RPM+ 카드
+            'https://www.card-gorilla.com/card/detail/2467', // 신한 알뜰모아 (통신)
+            'https://www.card-gorilla.com/card/detail/106', // 굿데이카드
+            'https://www.card-gorilla.com/card/detail/264', // IBK olleh super 
+            'https://www.card-gorilla.com/card/detail/2649', // 농협 zgm
+            'https://www.card-gorilla.com/card/detail/2633', // 디지로카 paris (쇼핑)
+            'https://www.card-gorilla.com/card/detail/733', // 무신사 현대카드
+            'https://www.card-gorilla.com/card/detail/41', // Deep On platinum
+            'https://www.card-gorilla.com/card/detail/2648', // zgm shopping
+            'https://www.card-gorilla.com/card/detail/2444', // 롯데마트 MAAX
+            'https://www.card-gorilla.com/card/detail/687', // 신한 Unboxing
+            'https://www.card-gorilla.com/card/detail/10', // 신한 B.big (대중교통)
+            'https://www.card-gorilla.com/card/detail/2408', // NH 홈타운
+            'https://www.card-gorilla.com/card/detail/2690', // K-패스
+            'https://www.card-gorilla.com/card/detail/142', // 톡톡 pay
+            'https://www.card-gorilla.com/card/detail/2364', // id Move
+            'https://www.card-gorilla.com/card/detail/129', // 청춘대로 톡톡카드 (카페)
+            'https://www.card-gorilla.com/card/detail/2262', // LOCA likit
+            'https://www.card-gorilla.com/card/detail/723', // 무민카드
+            'https://www.card-gorilla.com/card/detail/266', // 일상의 기쁨
+            'https://www.card-gorilla.com/card/detail/14', // YOLO
+            'https://www.card-gorilla.com/card/detail/2070', // 뱅크샐러드 빨대
+            'https://www.card-gorilla.com/card/detail/454', // 가온 올포인트 (주유)
+            'https://www.card-gorilla.com/card/detail/350', // 직장인보너스 체크카드
+            'https://www.card-gorilla.com/card/detail/2604', // 토심이 첵첵 (교통)
+            'https://www.card-gorilla.com/card/detail/614', // 위글위글
+            'https://www.card-gorilla.com/card/detail/294', // 신한 S-line
+            'https://www.card-gorilla.com/card/detail/739', // 나라사랑 국민 (위에꺼로 다 가능)
+            
+-- 디테일 urls
+
+twenty_Credit
+            'https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardflag=RC&cardWcd=TPIE2',
+            'https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardflag=RC&cardWcd=ZFE2',
+            'https://www.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardflag=RC&cardWcd=TRE6',
+            'https://www.bccard.com/app/card/CreditCardMain.do?gdsno=101922',
+            'https://www.shinhancard.com/pconts/html/card/apply/credit/1187938_2207.html',
+            'https://www.samsungcard.com/home/card/cardinfo/PGHPPCCCardCardinfoDetails001?code=AAP1731',
+            'https://kbcard-ad.com/pc/toktok/html/index_1.html',
+
+twenty_Check
+            'https://www.shinhancard.com/pconts/html/card/apply/check/1187963_2206.html',
+            'https://www.kbanknow.com/ib20/mnu/FPMCRD031000?phashid=Vs6Yl9x',
+            'https://kbcard-ad.com/nori2_card/2304/pc/',
+            'https://www.shinhancard.com/pconts/html/card/apply/check/1187959_2206.html',
+
+
+gov_Credit
+            'https://card-search.naver.com/item?cardAdId=10241',
+            'https://www.samsungcard.com/home/card/cardinfo/PGHPPCCCardCardinfoDetails001?code=AAP1688&click=happylounge_benefit_cardapply',
+            'https://www.shinhancard.com/pconts/html/card/apply/credit/1200235_2207.html?EntryLoc2=3040&empSeq=607&btnApp=DP1W',
+            'https://card-search.naver.com/item?cardAdId=10045',
+            'https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?cooperationcode=02065&mainCC=a',
+            'https://event.lottecard-ad.co.kr/happycard.html?utm_source=sa_naver_bs&utm_medium=cpc&utm_campaign=pc_card_application&utm_content=2203_happycard_20&utm_term=%EB%A1%AF%EB%8D%B0%EC%B9%B4%EB%93%9C%EA%B5%AD%EB%AF%BC%ED%96%89%EB%B3%B5%EC%B9%B4%EB%93%9C',
+            'https://m.bccard.com/service/card_issue_cardhappy.html',
+            'https://www.ibk.co.kr/cardbiz/detailBizNew.ibk?pageId=CA01020000&PDLN_CD=12&PDGR_CD=11&PDTM_CD=281&PDCD=0001&ad_cd=cardgopc&mz_cd=ICARDGO',
+            'https://www.ibk.co.kr/cardbiz/detailBizNew.ibk?pageId=CA01020000&PDLN_CD=12&PDGR_CD=11&PDTM_CD=281&PDCD=0002&ad_cd=cardgopc&mz_cd=ICARDGO',
+            'https://www.shinhancard.com/pconts/html/card/apply/credit/1188274_2207.html?EntryLoc2=2871&empSeq=785&btnApp=DP1W',
+
+gov_Check
+            'https://www.bccard.com/app/card/CreditCardMain.do?gdsno=756053',
+            'https://m.kbcard.com/CRD/DVIEW/MCAMCXHIACRC0002?mainCC=b&allianceCode=04120',
+            'https://www.banksalad.com/product/cards/CARD001359',
+            'https://www.samsungcard.com/home/card/cardinfo/PGHPPCCCardCardinfoDetails001?code=ABP1689',
+            'https://mgcheck.kfcc.co.kr/pers/appl/persLifeEGuid.do',
+
+personal_Credit
+
+            'https://www.ibk.co.kr/cardbiz/detailBizNew.ibk?pageId=CA01020000&PDLN_CD=12&PDGR_CD=11&PDTM_CD=281&PDCD=0001&ad_cd=cardgopc&mz_cd=ICARDGO',
+            'https://cardapplication.ibk.co.kr/card/index.jsp?card_prdc_id=103214',
+            'https://www.samsungcard.com/home/card/cardinfo/PGHPPCCCardCardinfoDetails001?code=AAP1753',
+            'https://card-search.naver.com/item?cardAdId=10328',
+            'https://www.shinhancard.com/pconts/html/card/apply/credit/1188274_2207.html?EntryLoc2=2871&empSeq=785&btnApp=DP1W',
+            'https://www.shinhancard.com/pconts/html/card/apply/credit/1187945_2207.html',
+            'https://www.shinhancard.com/pconts/html/card/apply/credit/1219175_2207.html',
+            'https://m.kbcard.com/CRD/DVIEW/MCAMCXHIACRC0002?mainCC=b&allianceCode=09061',
+            'https://www.bccard.com/app/card/CreditCardMain.do?gdsno=755847',
+            'https://card-search.naver.com/item?cardAdId=10313',
+            'https://www.lottecard.co.kr/app/LPCDXAA_V020.lc',
+            'https://img.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=MSSHC',
+            'https://www.shinhancard.com/pconts/html/card/apply/credit/1188280_2207.html',
+            'https://card-search.naver.com/item?cardAdId=10314',
+            'https://www.lotteon.com/display/planV2/planDetail/104185',
+            'https://www.shinhancard.com/pconts/html/card/apply/credit/1198302_2207.html',
+            'https://www.shinhancard.com/pconts/html/card/apply/credit/1187938_2207.html',
+            'https://card-search.naver.com/item?cardAdId=10160',
+            'https://www.shinhancard.com/pconts/html/card/apply/check/1225544_2206.html',
+            'https://m.kbcard.com/CRD/DVIEW/MCAMCXHIACRC0002?mainCC=b&allianceCode=09231',
+            'https://www.samsungcard.com/home/card/cardinfo/PGHPPCCCardCardinfoDetails001?code=AAP1762&click=idcard_showroom_move',
+            'https://m.kbcard.com/CRD/DVIEW/MCAMCXHIACRC0002?mainCC=b&allianceCode=09174',
+            'https://jiwon3.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P13943-A13943',
+            'https://cardapplication.ibk.co.kr/card/index.jsp?card_prdc_id=100914&branch=crmlms',
+            'https://cardapplication.ibk.co.kr/card/index.jsp?card_prdc_id=927222&ad_cd=bc&mz_cd=ETCBCCA',
+            'https://www.shinhancard.com/pconts/html/card/apply/credit/1187924_2207.html',
+            'https://www.banksalad.com/product/cards/CARD000019',
+            'https://card.kbcard.com/CRD/DVIEW/HCAMCXPRICAC0076?categoryCode=L0093&cooperationcode=01998&mainCC=a&sGroupCode=2',
+            'https://m.kbcard.com/CRD/DVIEW/MCAMCXHIACRC0002?allianceCode=01690&mainCC=b',
+            'https://m.kbcard.com/CRD/DVIEW/MCAMCXHIACRC0002?mainCC=b&allianceCode=07960',
+            'https://m.kbcard.com/CRD/DVIEW/MCAMCXHIACRC0002?allianceCode=01918&mainCC=b',
+            'https://www.shinhancard.com/pconts/html/card/apply/check/1188362_2206.html',
+            'https://m.kbcard.com/CRD/DVIEW/MCAMCXHIACRC0002?mainCC=b&allianceCode=04120',
+
+
+event
+        'https://img.hyundaicard.com/cpc/cr/CPCCR0201_01.hc?cardWcd=ME4',
+        'https://jiwon3.lottecard.co.kr/app/LPCDADB_V100.lc?vtCdKndC=P15590-A15590',
+        'https://www.samsungcard.com/home/card/cardinfo/PGHPPCCCardCardinfoDetails001?code=AAP1483',
+        'https://www.samsungcard.com/home/card/cardinfo/PGHPPCCCardCardinfoDetails001?code=AAP1731',
+        'https://m.kbcard.com/CRD/DVIEW/MCAMCXHIACRC0002?mainCC=b&allianceCode=09123',
+        'https://www.ibk.co.kr/cardbiz/detailBizNew.ibk?pageId=CA01020000&PDLN_CD=12&PDGR_CD=11&PDTM_CD=338&PDCD=0001&ad_cd=cardgopc&mz_cd=ICARDGO',
+        'https://www.shinhancard.com/pconts/html/card/apply/credit/1226113_2207.html',
+        'https://www.shinhancard.com/pconts/html/card/apply/credit/1187901_2207.html',
+        'https://www.hanacard.co.kr/OPI41000000D.web?CD_PD_SEQ=17504',
+        'https://www.ehyundai.com/newPortal/card/CA/CA000001_V.do?gad_source=1&gclid=Cj0KCQiAsOq6BhDuARIsAGQ4-zi5-E4ydGJ0IIEL0s3XTPwEfWcukHHvYGYAvpaNX5XU4HhM6Bf5PhMaApM_EALw_wcB',

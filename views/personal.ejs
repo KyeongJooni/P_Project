@@ -1,0 +1,79 @@
+<div class="personal">
+  <div class="personal-page">
+    <div class="personal-overlap">
+      <div class="search-box-1"></div>
+      <!-- 필터 버튼 섹션 -->
+      <div class="rectangle-2"></div>
+      <div class="text-wrapper" data-keyword="교통" onclick="filterCards(this)">교통</div>
+      <div class="rectangle-3"></div>
+      <div class="text-wrapper-2" data-keyword="주유" onclick="filterCards(this)">주유</div>
+      <div class="rectangle-4"></div>
+      <div class="text-wrapper-3" data-keyword="쇼핑" onclick="filterCards(this)">쇼핑</div>
+      <div class="rectangle-5"></div>
+      <div class="text-wrapper-4" data-keyword="커피" onclick="filterCards(this)">커피</div>
+      <div class="rectangle-6"></div>
+      <div class="text-wrapper-5" data-keyword="통신" onclick="filterCards(this)">통신</div>
+
+      <!-- 카드 리스트 섹션 -->
+      <div class="personal-group">
+        <% cards.forEach(card => { %>
+          <div class="personal-overlap-group">
+            <!-- 카드 이미지 -->
+            <img class="personal-image" src="<%= card.image_url || 'img/card-placeholder.png' %>" alt="카드 이미지" />
+
+            <!-- 카드 이름 -->
+            <div class="personal-text-wrapper">
+              <%= card.card_name %>
+            </div>
+
+            <!-- 카드 세부 정보 -->
+            <div class="personal-div">
+              <div class="personal-overlap-2">
+                <p class="personal-p">
+                  <span class="personal-span">전월실적<br /></span>
+                  <span class="personal-text-wrapper-2">
+                    <%= card.monthly_spending_requirement || '조건 없음' %>
+                  </span>
+                </p>
+                <p class="personal-div-2">
+                  <span class="personal-span">연회비<br /></span>
+                  <span class="personal-text-wrapper-2">
+                    <%= card.annual_fee %>
+                  </span>
+                </p>
+                <div class="personal-rectangle-2"></div>
+                <a href="<%= card.detail_url %>" class="personal-text-wrapper-4" style="text-decoration: none; color: inherit;">상세보기</a>
+              </div>
+
+              <!-- 혜택 표시 -->
+              <div class="personal-text-wrapper-5">주요 혜택</div>
+              <div class="personal-element-CGV">
+                <% card.benefit.split(';').forEach(benefit => { %>
+                  <div class="personal-benefit-item">
+                    <%= benefit.trim() %>
+                  </div>
+                <% }); %>
+              </div>
+            </div>
+          </div>
+        <% }); %>
+      </div>
+
+      <div class="personal-rectangle-3"></div>
+      <div class="personal-rectangle-4"></div>
+      <div class="personal-rectangle-5"></div>
+      <div class="personal-text-wrapper-6">카드</div>
+      <div class="personal-frame"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+  function filterCards(element) {
+    const keyword = element.getAttribute('data-keyword');
+    if (keyword) {
+      window.location.href = `/personal/filter?keyword=${encodeURIComponent(keyword)}`;
+    }
+  }
+</script>
+<script src="/js/personalanima.js"></script>

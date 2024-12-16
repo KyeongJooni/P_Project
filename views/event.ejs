@@ -1,0 +1,61 @@
+<div class="event">
+  <div class="event-page">
+    <div class="event-overlap">
+      <div class="event-group">
+        <% cards.forEach(card => { %>
+        <div class="event-overlap-group">
+          <!-- 카드 이미지 -->
+          <img class="event-image" src="<%= card.image_url || 'img/card-placeholder.png' %>" alt="카드 이미지" />
+
+          <!-- 카드 이름 -->
+          <div class="event-text-wrapper"><%= card.card_name %></div>
+
+          <!-- 카드 세부 정보 -->
+          <div class="event-div">
+            <div class="event-overlap-2"> 
+              <p class="event-p">
+                <span class="event-span">전월실적<br /></span> 
+                <span class="event-text-wrapper-2"><%= card.monthly_spending_requirement || '조건 없음' %></span>
+              </p>
+              <p class="event-div-2">
+                <span class="event-span">연회비<br /></span>
+                <span class="event-text-wrapper-2"><%= card.annual_fee %></span>
+              </p>
+              <div class="event-rectangle-2"></div>
+              <a href="<%= card.detail_url %>" class="event-text-wrapper-4" style="text-decoration: none; color: inherit;">상세보기</a>
+            </div>
+
+            <!-- 혜택 표시 -->
+            <div class="event-text-wrapper-5">주요 혜택</div>
+            <div class="event-element-CGV">
+              <% card.benefit.split(';').forEach(benefit => { %>
+              <div class="event-benefit-item"><%= benefit.trim() %></div>
+              <% }); %>
+            </div>
+          </div>
+        </div>
+        <% }); %>
+      </div>
+     
+      <div class="card-section">
+        <!-- 신용카드 섹션 -->
+        <div class="credit-card-section">
+            <a href="/event" class="event-text-wrapper-6">카드</a>
+            <a href="/event" class="event-text-wrapper-6-1">카드</a>
+        </div>
+    </div>
+    <div class = "search-box"></div>
+      <div class="event-search-wrapper">
+        <form action="/search_event" method="POST" class="event-search-form">
+          <input type="text" 
+                 name="search" 
+                 class="event-search-input" 
+                 placeholder="검색어를 입력하세요"
+                 value="<%= locals.searchKeyword || '' %>">
+          <button type="submit" class="event-search-button">검색</button>
+      </form>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="/js/eventanima.js"></script>
