@@ -1,5 +1,6 @@
 <div align=center>프로젝트 제목: 사용자별 맞춤 카드 추천을 위한 AI Chatbot Service</div>
-![홈페이지](https://github.com/user-attachments/assets/3a4258c5-592c-4e05-bd06-9dbb3874f1aa)
+![홈페이지](https://github.com/user-attachments/assets/fb7e53df-9c78-4223-a5b0-9f513349548f)
+
 
 ## 프로젝트 소개
 재무관리 또는 실사용을 위해 카드를 발급하는 소비자들에게 ChatGPT AI Chatbot을 이용한 맞춤형 카드를 추천해주는 서비스
